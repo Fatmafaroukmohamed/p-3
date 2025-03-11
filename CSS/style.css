@@ -1,0 +1,715 @@
+body{
+    height: 10000;
+}
+img{
+    width: 100px;
+    height: 80px;
+    border-radius: 35px;
+}
+.navbar{
+    opacity: 0.7;
+}
+.nav-link{
+    color: rgb(91, 50, 181);
+}
+.form-inline{
+    margin-left: 650px;
+}
+h2{
+    color: rgb(142, 123, 183);
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(235, 231, 231);
+}
+.dropdown-menu{
+   opacity: 0.7;
+}
+button:hover{
+    opacity: 0.8;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.camera-icon{
+    margin-top: 100px;
+    margin-left: 1480px;
+    position: fixed;
+    z-index: 2;
+    color: white;
+    background-color: rgb(193, 193, 219);
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 5px;
+}
+.page-icons{
+    position: fixed;
+    z-index: 2;
+    margin-top: 200px;
+    margin-left: 1460px;
+    font-size: 50px;
+    color: rgb(113, 113, 165);
+    display: inline-block;
+}
+.page-icon1:hover i{
+    color: rgb(81, 81, 113);
+}
+.page-icon2:hover i{
+    color: rgb(81, 81, 113);
+}
+.page-icon3:hover i{
+    color: rgb(81, 81, 113);
+}
+.page-icon4:hover i{
+    color: rgb(81, 81, 113);
+}
+.page-icon5:hover i{
+    color: rgb(81, 81, 113);
+}
+.home2{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgb(145, 145, 200);
+    position: relative;
+}
+.home2-title h1{
+    position: absolute;
+    color:rgb(29, 29, 62) ;
+    text-shadow: 1px 1px  8px rgb(177, 15, 167);
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.home2-p p{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px ;
+    color: white;
+    font-size: 20px;
+}
+.home2-btn button{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 50px ;
+    color:rgb(103, 103, 194) ;
+}
+.home3{
+    width: 100vw;
+    height: 25vh;
+    background-color:rgb(55, 55, 90) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home3-p p{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 450px;
+    color: white;
+    font-size: 50px;
+}
+.home4{
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(55, 55, 90) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home4-p p{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 480px;
+    color: white;
+    font-size: 40px;
+}
+.home5{
+    width: 100vw;
+    height: 40vh;
+    background-color:rgb(189, 189, 207) ;
+    position: relative;
+}
+.home5 h3{
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home5 h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 245px;
+    font-size: 24px;
+}
+.home5-copy{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.home5-copy button{
+   width: 60px;
+   height: 40px;
+   border-radius: 5px;
+   border: solid 1px rgb(208, 208, 236) ;
+   color: rgb(77, 77, 202) ;
+   background-color: rgb(200, 199, 199);
+   margin-bottom: 15px;
+}
+.home5-copy input{
+    width: 1500px;
+    height: 150px;
+    padding-bottom:120px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: rgb(74, 73, 73);
+}
+.home6{
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(55, 55, 90) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home6-p p{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 480px;
+    color: white;
+    font-size: 40px;
+}
+.home7{
+    width: 100vw;
+    height: 40vh;
+    background-color:rgb(189, 189, 207) ;
+    position: relative;
+}
+.home7 h3{
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home7 h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 245px;
+    font-size: 24px;
+}
+.home7-copy{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.home7-copy button{
+   width: 60px;
+   height: 40px;
+   border-radius: 5px;
+   border: solid 1px rgb(208, 208, 236) ;
+   color: rgb(77, 77, 202) ;
+   background-color: rgb(200, 199, 199);
+   margin-bottom: 15px;
+}
+.home7-copy input{
+    width: 1500px;
+    height: 150px;
+    padding-bottom:120px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: rgb(74, 73, 73);
+}
+.home8{
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(55, 55, 90) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home8-p p{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 480px;
+    color: white;
+    font-size: 40px;
+}
+.home9{
+    width: 100vw;
+    height: 40vh;
+    background-color:rgb(189, 189, 207) ;
+    position: relative;
+}
+.home9 h3{
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home9 h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 245px;
+    font-size: 24px;
+}
+.home9-copy{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.home9-copy button{
+   width: 60px;
+   height: 40px;
+   border-radius: 5px;
+   border: solid 1px rgb(208, 208, 236) ;
+   color: rgb(77, 77, 202) ;
+   background-color: rgb(200, 199, 199);
+   margin-bottom: 15px;
+}
+.home9-copy input{
+    width: 1500px;
+    height: 150px;
+    padding-bottom:120px;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: rgb(74, 73, 73);
+}
+.home10{
+    width: 100vw;
+    height: 50vh;
+    background: url(../images/intercontinental-cairo-4121155160-2x1.avif) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home11{
+    width: 100vw;
+    height: 15vh;
+    background-color:rgb(161, 161, 189) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home11 h2{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 30px;
+    color:rgb(29, 29, 62) ;
+    text-shadow: 1px 1px  8px rgb(177, 15, 167);
+    border: 0px;
+    font-size: 50px;
+}
+.home12{
+    width: 100vw;
+    height: 240vh;
+    background-color:rgb(205, 205, 210) ;
+    position: relative;
+}
+.home12 .card{
+    position: absolute;
+    margin-top: 50px;
+}
+.card::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height:0;
+    bottom: 0;
+    right: 0;
+    transition: 1s;
+    background-color: rgb(68, 147, 171);
+    opacity: 0;
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    background-color: rgb(68, 147, 171);
+    opacity: 0;
+}
+.card:hover::before{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+.home13{
+    width: 100vw;
+    height: 50vh;
+    background: url(../images/luxor-egypt-things-to-do-itinerary-main-image-op-thumb.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home14{
+    width: 100vw;
+    height: 15vh;
+    background-color:rgb(161, 161, 189) ;
+    border-radius: 10px;
+    position: relative;
+}
+.home14 h2{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 30px;
+    color:rgb(29, 29, 62) ;
+    text-shadow: 1px 1px  8px rgb(177, 15, 167);
+    border: 0px;
+    font-size: 50px;
+}
+.home15{
+    width: 100vw;
+    height: 80vh;
+    background-color:rgb(212, 212, 225) ;
+}
+.thanks-card1{
+    background-image: url(../images/1000-Elena_Hmeleva_Photography_-522f96d82e170959c46fcd0b8e173f2c.jpg);
+    background-size: cover;
+}
+.thanks-card1:hover{
+    transform: scale(0.9);
+}
+.thanks-card2{
+    background-image: url(../images/image-asset.jpeg);
+    background-size: cover;
+}
+.thanks-card2:hover{
+    transform: scale(0.9);
+}
+.thanks-card3{
+    background-image: url(../images/g276ufcjyj-22o-c32xnt.jpg);
+    background-size: cover;
+}
+.thanks-card3:hover{
+    transform: scale(0.9);
+}
+
+.home155 h1{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 100px;
+    color:rgb(62, 62, 94) ;
+    text-shadow: 1px 1px  8px rgb(157, 88, 152);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text1 h4{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(37, 59, 158);
+}
+.text1 h6{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.text1 p{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 900px;
+}
+.text1-btn1 h5{
+    margin-left: 20px;
+}
+.text1-btn1:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text1-btn2 h5{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.text1-btn2:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text1-btn3 h5{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(61, 61, 155);
+}
+.text1-btn3:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text1-img:hover img{
+    transform: scale(0.98);
+}
+.text2 h4{
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 30px;
+    color: rgb(171, 86, 86);
+}
+.text2 h6{
+    margin-left: 370px;
+    margin-top: -20px;
+}
+.text2 p{
+    margin-left: 370px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 780px;
+}
+.text2-btn1 h5{
+    margin-left: 20px;
+}
+.text2-btn1:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text2-btn2 h5{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.text2-btn2:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text2-btn3 h5{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(171, 86, 86);
+}
+.text2-btn3:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text2-img:hover img{
+    transform: scale(0.98);
+}
+.text3 h4{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color: rgb(37, 158, 73);
+}
+.text3 h6{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+.text3 p{
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 900px;
+}
+.text3-btn1 h5{
+    margin-left: 20px;
+}
+.text3-btn1:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text3-btn2 h5{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.text3-btn2:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text3-btn3 h5{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(37, 158, 73);
+}
+.text3-btn3:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text3-img:hover img{
+    transform: scale(0.98);
+}
+.text4 h4{
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 30px;
+    color: rgb(171, 153, 86);
+}
+.text4 h6{
+    margin-left: 370px;
+    margin-top: -20px;
+}
+.text4 p{
+    margin-left: 370px;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 780px;
+}
+.text4-btn1 h5{
+    margin-left: 20px;
+}
+.text4-btn1:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text4-btn2 h5{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+.text4-btn2:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text4-btn3 h5{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    color: rgb(171, 153, 86);
+}
+.text4-btn3:hover{
+    opacity: 0.8;
+    color: black;
+}
+.text4-img:hover img{
+    transform: scale(0.98);
+}
+.home16{
+    width: 100vw;
+    height: 50vh;
+    background-color:rgb(213, 213, 223) ;
+    position: relative;
+}
+.home16 h2{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+    color:rgb(46, 46, 78) ;
+    text-shadow: 1px 1px  8px rgb(194, 102, 188);
+    border: 0px;
+    font-size: 50px;
+}
+.tewiter-icon h5{
+    font-size: 25px;
+    margin-left: 35px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.tewiter-icon h4{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.whatsapp-icon h5{
+    font-size: 25px;
+    margin-left: 85px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.whatsapp-icon h4{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.linkedin-icon h5{
+    font-size: 25px;
+    margin-left: 50px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.linkedin-icon h4{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.instagram-icon h5{
+    font-size: 25px;
+    margin-left: 40px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.instagram-icon h4{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(61, 61, 155);
+    text-shadow: 1px 1px  8px rgb(161, 128, 159);
+}
+.footer-container {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(133, 133, 183);
+    color: white;
+    padding: 40px 0;
+    display: flex;
+}
+
+.footer-column {
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-logo {
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    float: left;
+    margin-left: 100px;
+}
+.footer-logo img{
+      border-radius: 50%;
+      width: 70px;
+      height: 70px;
+}
+.footer-heading {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: rgb(60, 60, 143);
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+    color: rgb(60, 60, 143);
+}
